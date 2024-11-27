@@ -45,7 +45,7 @@ void CreateCmdString(char* buf, unsigned long long len,struct CmdInfo* cnf){
      */
 
     /**
-    //You can use CPU to improve the speed of transcoding to mp4.
+    //You can use GPU to improve the speed of transcoding to mp4.
     if (!strcmp(cnf->format, "mp4"))
         strcpy(cnf->format, "mp4 --postprocessor-args \"ffmpeg:-c:v h264_nvenc\"");  //Secect encoders which your GPU supposed.
     */
