@@ -74,15 +74,9 @@ int main(int args, char** argv){
     Init();
     Input(&info);
     CreateCmdString(strcmd,sizeof(strcmd),&info);
-    printf("ÔËÐÐÖ¸Áî>%s\n",strcmd);
+    printf("Ã”Ã‹ÃÃÃ–Â¸ÃÃ®>%s\n",strcmd);
     system(strcmd);
     printf("\n");
-    system("echo °´ÈÎÒâ¼üÍË³ö & pause>nul");
+    system("echo Â°Â´ÃˆÃŽÃ’Ã¢Â¼Ã¼ÃÃ‹Â³Ã¶ & pause>nul");
     return 0;
 }
-
-/*
-https://www.bilibili.com/video/BV1PV411w74u
-C:\Users\27746\Desktop\Easy-yt-dlp\output.mp4
-mp4
-*/
