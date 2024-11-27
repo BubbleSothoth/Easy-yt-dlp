@@ -41,7 +41,7 @@ void CreateCmdString(char* buf, unsigned long long len,struct CmdInfo* cnf){
 
     /*
      * I removed GPU's function in my program, thus everyone can run it whether AMD or NVIDIA in the computer.If you want to use this function, 
-     * you need rewrite next codes base your GPU and build source codes angain
+     * you need rewrite the code in the next section according to your GPU's type and build source codes angain.
      */
 
     /**
