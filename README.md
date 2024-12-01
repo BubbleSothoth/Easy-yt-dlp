@@ -2,13 +2,16 @@
 A lightweight software base yt-dlp, purposing to use yt-dlp easily.
 
 Just like its name, this is a lightweight software which be built base yt-dlp, purposing to use yt-dlp easy. 
-Now you can just provide the url, the file's path, the file's format and your cookie-writing file to download videos instand of loads of complex arguments in console.
+Now you can just provide the url, the file's path and some other optional option to download mp4 videos instand of loads of complex arguments in console.
 
 ## Input
-Press url, path and name for output, file's format(like mp4, avi, etc.) and file wrote cookies. If you don't have cookies, juse ignore it. After that, this program will auto create command via your input and call yt-dlp by cmd.
+Press url and file's name is required, but cookies' file and encoders is alternative. If you ignor alternative option, the procedure will use default 
+congfig that no cookies, libx264 video encoder and aac audio encoder. 
 
 ## Output
 Output be written to "Output file" where you were provided.
+The procedure will create a temp file at %TEMP%\Easy-yt-dlp\.
 
 ## Use GPU
-The releases edition is without GPU function, but I also protected annotation in my source code. Please rewrite and build it again if you need this function.
+If you want use GPU to encode video, you have to provide a encoder supporting of your hardware. It is my suggesting that you can use h264_nvenc for NVIDIA,
+h264_qsv for Intel and h264_amf for AMD.
