@@ -11,7 +11,7 @@
 */
 
 /*******************
-* Easy-yt-dlp V0.1
+* Easy-yt-dlp V0.2
 * gcc version 8.1.0 (x86_64-win32-seh-rev0, Built by MinGW-W64 project)
 ****************************************************************************************************************
 * Just like its name, this is a lightweight software which be built base yt-dlp, purposing to use yt-dlp easy.
