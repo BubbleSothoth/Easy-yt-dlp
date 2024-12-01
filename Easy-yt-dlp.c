@@ -11,7 +11,7 @@
 */
 
 /*******************
-* Easy-yt-dlp V0.1
+* Easy-yt-dlp V0.2
 * gcc version 8.1.0 (x86_64-win32-seh-rev0, Built by MinGW-W64 project)
 ****************************************************************************************************************
 * Just like its name, this is a lightweight software which be built base yt-dlp, purposing to use yt-dlp easy.
@@ -90,7 +90,7 @@ void Call(const char* cmd) {
     if (cmd[0] == '\0')
         return;
     if (cmd[0] != '@')
-        printf("[INFO] ÔËĞĞÖ¸Áî: %s\n", cmd);
+        printf("[INFO] Ã”Ã‹ÃÃÃ–Â¸ÃÃ®: %s\n", cmd);
     system(cmd);
     return;
 }
@@ -127,7 +127,7 @@ int main(int args, char** argv, char** envp){
     Call(cmd);
     CreateFfmegCmdString(cmd, CMDSize, &FFInfo);
     Call(cmd);
-    Call("@echo °´ÈÎÒâ¼üÍË³ö & pause > nul");
+    Call("@echo Â°Â´ÃˆÃÃ’Ã¢Â¼Ã¼ÃÃ‹Â³Ã¶ & pause > nul");
     
     //RunCmd(&CmdManager);
 
